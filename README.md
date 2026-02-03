@@ -25,5 +25,10 @@ python3 -m unittest discover skills/collaboration-helper/tests
 ## Packaging & release
 
 ```bash
-python3 /home/pi/.npm-global/lib/node_modules/openclaw/skills/skill-creator/scripts/package_skill.py skills/collaboration-helper
+python3 $(npm root -g)/openclaw/skills/skill-creator/scripts/package_skill.py skills/collaboration-helper
 ```
+
+## Links
+
+- **GitHub:** https://github.com/CrimsonDevil333333/collaboration-helper
+- **ClawHub:** https://www.clawhub.ai/skills/collaboration-helper
